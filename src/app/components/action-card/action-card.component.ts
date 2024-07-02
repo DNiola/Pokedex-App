@@ -15,4 +15,6 @@ export class ActionCardComponent implements OnInit {
   onSelectAction(action: string) {
     this.actionSelected.emit(action);
   }
+
+  
 }
