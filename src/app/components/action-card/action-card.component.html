@@ -1,0 +1,22 @@
+<ion-card class="w-4/5 flex justify-center flex-col  ">
+
+  <img class="object-cover h-20 xl:h-72" src="../../../assets/img/login.jpg" />
+
+  <ion-card-header>
+    <span class="text-white text-xl font-bold">Welcome to PokeDex! </span>
+  </ion-card-header>
+
+  <ion-card-content class="flex justify-center flex-col  ">
+    <ion-card-subtitle class="flex items-center justify-center text-light-blue">
+
+      <ion-button fill="outline" color="danger" class="text-xs w-1/2">Login</ion-button>
+      <span class="px-4  "> Or </span>
+      <ion-button fill="outline" color="danger " class="text-xs w-1/2">Sign Up</ion-button>
+    </ion-card-subtitle>
+
+    <div class="flex flex-col  text-xs text-light-blue">
+      <span class="pt-4  ">Or join as </span>
+      <ion-button fill="clear" class="text-light-blue hover:underline" (click)="onSelectAction('guest')">Guest</ion-button>
+    </div>
+  </ion-card-content>
+</ion-card>
